@@ -1,0 +1,428 @@
+/*
+		===================================================================
+					Project Name	: 	Portfolio Resume
+					Theme URL		:	https://www.about.me/imamcu07/
+					Author			: 	MdImAmUdDiN
+					Author URL		: 	https://www.facebook.com/imamcu07
+					Author Details	:	https://www.about.me/imamcu07
+					HeLpLiNe		:	+880 01815 682307
+					Email			:	imamcu07@gmail.com
+		===================================================================
+*/
+
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h1,
+    h2 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+body{
+    background: transparent url("../images/bg.jpg") no-repeat fixed center top;
+    font-family: 'Kelly Slab', cursive;
+    color: #4C4C4C;
+    font-size: 15px;
+}
+.overlay{
+
+   background: rgba(26, 39, 96, 0.63) url("../images/bg.png") repeat scroll 0% 0%;
+}
+
+.bg_white{
+  background-color: #fff;
+}
+.white{
+  color: #eee;
+}
+.yellow{
+  color: #FADC66;
+}
+.black{
+  color: black;
+}
+.orange{
+  color: #D36921;
+}
+.head_top_border{
+  border-top: 8px solid #839192;
+  margin: 0px 25px;
+}
+.bg_light_navblue{
+  background-color:#839192;
+}
+.light_navblue{
+  color:#839192;
+}
+.bg_nav_blue{
+  background-color: black;
+}
+.nav_blue{
+  color: red;
+}
+
+.main_body{
+  margin-top: 50px;
+}
+.header_top{
+  margin-top: 70px;
+}
+.margin_top{
+  margin-top: 20px;
+}
+.margine_bottom{
+  margin-bottom: 20px;
+}
+/*.p_margin_top{
+  margin-top: 0px;
+}
+.head_title h1, .head_title h3, .head_title h5, .head_title h2{
+  line-height: 20px;
+}
+.head_title h5,h3{
+  letter-spacing: 0.6px;
+}*/
+.padding {
+  padding: 0px 25px;
+}
+.head_title img{
+  border:2px solid #839192;
+  border-radius: 50%;
+}
+.head_title h1{
+  margin-top: 10px;
+ 
+}
+.head_title .list-inline > li {
+    display: inline-block;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.head_title .first_ul a{
+  border-radius: 0px;
+}
+.head_title .first_ul a:hover{
+  
+}
+.hr_color{
+  background-color: #254656;
+  border:1px solid #254656;
+}
+.hr{
+  margin: 0px 2px;
+}
+.sec_hr{
+  margin: -15px 2px;
+}
+/*.exp{
+  padding: 0px 25px;
+}*/
+.header_top h1{
+font-family: 'Limelight', cursive;
+color: black;
+font-size:46px;
+margin-top: 8px;
+letter-spacing: 0.5px;
+}
+.header_top p{
+  margin-bottom: -12px;
+}
+h2 {
+	font-family: 'Felipa', cursive;
+	font-weight:bold;
+	font-size: 18px;
+	
+	text-align: center;
+	margin-top: -22px;
+}
+.curs {
+	font-family: 'Great Vibes', cursive;
+	font-weight: bold;
+	font-size: 26px;
+}
+.comonh5{
+  font-family: 'Patua One', cursive;
+  font-size:22px;
+  font-weight: bold;
+  color: black;
+}
+.text-justify {
+	font-family: 'Play', sans-serif;
+	font-size:14px;
+}
+
+.about h4{
+  margin-top: 12px;
+}
+
+.exp h5, .edu h5{
+  font-family: 'Ubuntu', sans-serif;
+  background-color:#214b5b;
+  color: #F5F5F5;
+  font-size:12px;
+  border-radius: 30px;
+  padding: 2px 20px;
+}
+
+.exp h4, .edu h4{
+  font-family: 'Play', sans-serif;
+  letter-spacing: 0.6px;
+  color: #2a5699;
+  font-size: 16px;
+  font-weight: bold;
+}
+.maroon{
+  color: maroon;
+  font-weight: bold;
+}
+.exp ul{
+  padding-left: 12px;
+}
+.exp p, .edu p{
+  margin-bottom: -12px;
+}
+.lang p, .pro_train p, .extra_activ p{
+  margin-bottom: 0px;
+}
+.pest {
+  font-weight: bold;
+  color: #008B8D;
+}
+@media (min-width: 300px) and (max-width: 740px){
+.personalinfo_doted_hide{
+  visibility: hidden;
+}
+.lang .row{
+  margin-top: 15px;
+}
+.padding{ 
+  padding: 0px;
+
+}
+}
+.pro_train table thead th{
+  text-align: center;
+  color: #3A728B;
+}
+.special_skill ul {
+  padding-left: 12px;
+}
+.extra_activ ul {
+  list-style: square;
+  padding-left: 12px;
+}
+.fa-heartbeat {
+	color: red;
+}
+.cpyr {
+	text-align:right;
+	color: #FDFEFE;
+	font-family: 'Play', sans-serif;
+	font-size: 12px;	
+}
+.cpyr a {
+	font-family: 'Kelly Slab', cursive;
+	color: yellow;
+}
