@@ -1,10 +1,10 @@
 /*
 		===================================================================
 					Project Name	: 	Portfolio Resume
-					Theme URL		:	https://www.about.me/imamcu07/
+					Theme URL		:	https://www.about.me/imamuddinwp/
 					Author			: 	MdImAmUdDiN
-					Author URL		: 	https://www.facebook.com/imamcu07
-					Author Details	:	https://www.about.me/imamcu07
+					Author URL		: 	https://www.facebook.com/imamuddinwp
+					Author Details	:	https://www.about.me/imamuddinwp
 					HeLpLiNe		:	+880 01815 682307
 					Email			:	imamcu07@gmail.com
 		===================================================================
@@ -232,7 +232,7 @@ body{
 }
 
 .bg_white{
-  background-color: #fff;
+  background-color: #ffffffcf;
 }
 .white{
   color: #eee;
@@ -247,7 +247,7 @@ body{
   color: #D36921;
 }
 .head_top_border{
-  border-top: 8px solid #839192;
+  border-top: 8px solid #0a0a0af2;
   margin: 0px 25px;
 }
 .bg_light_navblue{
@@ -332,10 +332,9 @@ letter-spacing: 0.5px;
 h2 {
 	font-family: 'Felipa', cursive;
 	font-weight:bold;
-	font-size: 18px;
-	
+	font-size: 18px;	
 	text-align: center;
-	margin-top: -22px;
+	margin-top: -5px;
 }
 .curs {
 	font-family: 'Great Vibes', cursive;
